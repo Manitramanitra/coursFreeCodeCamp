@@ -1,0 +1,36 @@
+h3 {
+    display: inline;
+    color: red;
+    text-align: center;
+}
+
+.Navigation {
+    display: flex;
+    align-items: center;
+    background: #21222A;
+    padding: 30px 25px;
+    height: 90px;
+}
+
+.Navigation div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+h3 {
+    margin-right: auto;
+    color: #61DAFB;
+    font-weight: 700;
+}
+
+h4 {
+    color: #DEEBFB;
+    font-weight: 600;
+}
