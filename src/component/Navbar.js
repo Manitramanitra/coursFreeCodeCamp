@@ -1,14 +1,13 @@
 import React from 'react';
-import imageLogo from"../image/logo192.png"
-import './Navbar.css'
+import logo from '../image/logo.png'
+
 const Navbar = () => {
     return (
         <div>
-            <nav className='Navigation'>
-                <img src={imageLogo} alt="logo react" className='nav-icon'/> 
-                <h3 className='nav--logo_text'>ReactFacts</h3>
-                <h4 className='nav--title'> React Course - Project 1</h4>
-            </nav>
+            <nav className='navigation'>
+                <img src={logo} alt="logo airbnd" />
+                <span>airbnd</span>
+            </nav>   
         </div>
     );
 };

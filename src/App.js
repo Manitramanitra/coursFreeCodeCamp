@@ -1,10 +1,10 @@
 import React from 'react';
-import Folder from './component/Folder';
+import Navbar from './component/Navbar';
 import './style.css';
 const App = () => {
   return (
     <div>
-      <Folder/>
+       <Navbar/>
     </div>
   );
 };
