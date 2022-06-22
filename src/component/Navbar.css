@@ -1,3 +1,7 @@
+.container--nav{
+    box-shadow: 1px 1px 1px #8c2828;
+}
+
 .navigation{
 display: flex;
 align-items: center;
@@ -6,3 +10,6 @@ justify-content: start;
 
 .navigation img{
 height: 50px;}
+.logo--text{
+    color:rgb(180, 67, 86);
+}
