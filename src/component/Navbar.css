@@ -3,13 +3,13 @@
 }
 
 .navigation{
-display: flex;
-align-items: center;
-justify-content: start;
+    display: flex;
+    align-items: center;
 }
 
 .navigation img{
-height: 50px;}
+    height: 50px;
+}
 .logo--text{
     color:rgb(180, 67, 86);
 }

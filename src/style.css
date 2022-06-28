@@ -1,3 +1,15 @@
 * {
     font-family: 'Nunito', sans-serif;
 }
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap:wrap;
+}
+.contact div{
+    margin: 10px;
+}
+img{
+    height: 358px;
+}
