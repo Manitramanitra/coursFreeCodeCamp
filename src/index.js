@@ -20,10 +20,10 @@ root.render(
 //   }
 // })
 // console.log(newName);
-let temp = new Array();
-let tab  = new Array();
-const name = ['Manitra','Alice','Manoa','Iatrika','Gregoire'];
-const newName = name.filter((item)=>{
-  return item[0].toLocaleUpperCase()
-})
-console.log(newName);
+// let temp = new Array();
+// let tab  = new Array();
+// const name = ['Manitra','Alice','Manoa','Iatrika','Gregoire'];
+// const newName = name.filter((item)=>{
+//   return item[0].toLocaleUpperCase()
+// })
+// console.log(newName);

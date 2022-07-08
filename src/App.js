@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from "./component/Navbar.js";
 import Card from "./component/Card.js";
-import Contact from "./component/Contact";
-import maki from "./image/maki.jpg"
-import keeper from "./image/childerKeeper.jpg"
+import Affiche from "./component/Affiche"
+// import maki from "/public/image/maki.jpg"
+// import keeper from "/public/image/childerKeeper.png"
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./style.css";
 const App = () => {
@@ -12,18 +12,7 @@ const App = () => {
       <Navbar />
       <Card />
       <div className="contact">
-        <Contact 
-        img={maki}
-        name='Mr Maki'
-        phone = '000-654-367'
-        email='randiluc@gmail.com'
-        />
-        <Contact 
-        img={keeper}
-        name='Mr Ankizy'
-        phone='237-469-001'
-        email='ankizy@gmail.com'
-        />
+        <Affiche/>
       </div>
     </div>
   );
