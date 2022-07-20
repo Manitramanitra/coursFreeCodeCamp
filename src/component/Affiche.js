@@ -14,9 +14,6 @@ const Affiche = () => {
             description={item.description}
         />)
     })
-    console.log("toto")
-    console.log(datasAffiche)
-    console.log("tata")
     return (
         <>
             {datasAffiche}
