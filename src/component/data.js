@@ -12,7 +12,8 @@ const data = [
             reviewCount:30
         },
         location:"Online",
-        openSpots:27
+        openSpots:27,
+        email: "toto@gmail.com"
     },
     {
         id:2,
@@ -21,13 +22,14 @@ const data = [
         description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non reprehenderit architecto dolor. Magnam, eaque quidem.",
         price:300,
         phone:"2345-685-678",
-        coverImg: "image/childrenKeeper.jpg",
+        coverImg: "image/childerKeeper.jpg",
         stats:{
             rating: 4.0,
             reviewCount:90
         },
         location:"Online and offline",
-        openSpots:30
+        openSpots:30,
+        email: "toto@gmail.com"
     },
     {
         id:3,
@@ -42,7 +44,8 @@ const data = [
             reviewCount:30
         },
         location:"Online",
-        openSpots:27
+        openSpots:27,
+        email: "toto@gmail.com"
     },
 
 ]

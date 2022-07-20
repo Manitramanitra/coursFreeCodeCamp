@@ -1,6 +1,7 @@
 import React from 'react';
 import './Contact.css'
-const Contact = ({title,description,phone,price,location,openSpots,coverImg,name}) => {
+const Contact = ({title,description,phone,price,location,openSpots,coverImg,name , email}) => {
+
   return (
     <div className="card">
       <img src={coverImg} className="card-img-top img" alt={`mr ${name}`}/>

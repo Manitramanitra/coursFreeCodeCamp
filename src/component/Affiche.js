@@ -1,17 +1,26 @@
 import React from 'react';
 import Contact from './Contact';
 import data from './data'
-console.log(data)
+
 const Affiche = () => {
+
     const datasAffiche = data.map((item)=>{
-        console.log(item.description)
-        return <Contact
-            img={data.CoverImg}
-            alt={item.name}
-        />
+        console.log()
+        return (<Contact
+            coverImg={item.coverImg}
+            phone={item.phone}
+            name={item.name}
+            email={item.email}
+            description={item.description}
+        />)
     })
+    console.log("toto")
+    console.log(datasAffiche)
+    console.log("tata")
     return (
-        {datasAffiche}
+        <>
+            {datasAffiche}
+        </>
     );
 };
 
