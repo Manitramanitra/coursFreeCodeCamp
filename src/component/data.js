@@ -44,7 +44,7 @@ const data = [
             reviewCount:30
         },
         location:"Online",
-        openSpots:27,
+        openSpots:0,
         email: "toto@gmail.com"
     },
 
