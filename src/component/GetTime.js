@@ -59,23 +59,38 @@ import React from 'react';
 
 const GetTime = () => {
 
-    let [number, setNumber] = React.useState(0)
-    function diminuer() {
-        setNumber((value) => {
-            return value - 1;
-        })
-    }
-    function augmenter() {
-        setNumber((value) => {
-            return value + 1;
-        })
+    // let [number, setNumber] = React.useState(0)
+    // function diminuer() {
+    //     setNumber((value) => {
+    //         return value - 1;
+    //     })
+    // }
+    // function augmenter() {
+    //     setNumber((value) => {
+    //         return value + 1;
+    //     })
+    // }
+
+    // ternary syntaxe
+    // let random = Math.floor(Math.random() * 2)
+    // let answer = random == 1 ? true : false;
+    // let [isGoing, setGoing] = React.useState(answer)
+    // function change() {
+    //     setGoing(oldValue=>!oldValue)
+    let [things, setThings] = React.useState(["Things 1", "Things 2"])
+    function AddItem(){
+        setThings(() => [...things, `Things ${things.length + 1}`])
     }
 
     return (
         <div>
-            <button onClick={diminuer}> diminuer</button>
-            <p>{number}</p>
-            <button onClick={augmenter}>augmenter</button>
+            {/* <button onClick={diminuer}> diminuer</button> *
+            <p onClick={change}>{isGoing? "true":"false"}</p>
+             <button onClick={augmenter}>augmenter</button> */}
+
+
+            <button onClick={AddItem}>Add item</button>
+            <div>{things}</div>
 
         </div>
     );

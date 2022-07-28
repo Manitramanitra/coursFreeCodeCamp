@@ -10,7 +10,7 @@ const App = () => {
       <Header/>
       <Meme/>
       {/* <State/> */}
-      {/* <GetTime/> */}
+      <GetTime/>
     </div>
   );
 };
