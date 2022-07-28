@@ -1,0 +1,18 @@
+.form {
+    margin-top: 15px;
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 15px;
+    padding: 40px;
+}
+
+.form--button {
+    grid-column: 1 / -1;
+    cursor: pointer;
+    background-color: blueviolet;
+    color: white;
+}
+
+img {
+    max-width: 100%
+}

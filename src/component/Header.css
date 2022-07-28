@@ -1,0 +1,12 @@
+.header{
+    display: flex;
+    background: blueviolet;
+    color: white;
+    justify-content:space-around;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

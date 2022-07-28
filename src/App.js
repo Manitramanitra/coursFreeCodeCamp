@@ -1,19 +1,16 @@
-import React from "react";
-import Navbar from "./component/Navbar.js";
-import Card from "./component/Card.js";
-import Affiche from "./component/Affiche"
-// import maki from "/public/image/maki.jpg"
-// import keeper from "/public/image/childerKeeper.png"
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./style.css";
+import React from 'react';
+import Header from './component/Header';
+import Meme from './component/Meme';
+import State from './component/State';
+import GetTime from './component/GetTime';
 const App = () => {
+ console.log("app")
   return (
     <div>
-      <Navbar />
-      <Card />
-      <div className="contact">
-        <Affiche/>
-      </div>
+      <Header/>
+      <Meme/>
+      {/* <State/> */}
+      {/* <GetTime/> */}
     </div>
   );
 };
