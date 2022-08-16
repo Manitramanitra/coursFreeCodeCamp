@@ -78,8 +78,15 @@ const GetTime = () => {
     // function change() {
     //     setGoing(oldValue=>!oldValue)
     let [things, setThings] = React.useState(["Things 1", "Things 2"])
-    function AddItem(){
-        setThings(() => [...things, `Things ${things.length + 1}`])
+    function AddItem() {
+        setThings(things => [...things, `Things ${things.length + 1}`])
+    }
+    function RemoveLastItem() {
+        setThings((oldValue) => {
+            const tab = [...oldValue]
+            tab.pop()
+            return tab
+        })
     }
 
     return (
@@ -90,6 +97,7 @@ const GetTime = () => {
 
 
             <button onClick={AddItem}>Add item</button>
+            <button onClick={RemoveLastItem}>Remove Last Item</button>
             <div>{things}</div>
 
         </div>

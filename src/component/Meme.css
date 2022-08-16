@@ -1,9 +1,9 @@
 .form {
     margin-top: 15px;
     display: grid;
-    grid-template: 40px 40px / 1fr 1fr;
+    grid-template: 40px 40px/ 1fr 1fr;
     gap: 15px;
-    padding: 40px;
+    padding: 2.5rem;
 }
 
 .form--button {
@@ -12,7 +12,10 @@
     background-color: blueviolet;
     color: white;
 }
-
-img {
-    max-width: 100%
+.containerImage{
+    width: 100%
 }
+img {
+    grid-column: 1/-1;
+    width:100% 
+} 
