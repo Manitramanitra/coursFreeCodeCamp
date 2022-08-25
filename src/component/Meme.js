@@ -11,10 +11,10 @@ const Meme = () => {
     const [image, setImage]=React.useState(0)
     let [formData, setFormData] = React.useState({
         up: "",
-        down: ""
+        down: "" 
     })
     const miovaSary = (e)=>{
-        e.preventDefault();
+        // e.preventDefault();
         setImage(prevValue=>prevValue++)
     }
     useEffect(() => {
@@ -65,7 +65,7 @@ const Meme = () => {
                     <div className="containerImage">
                         {chargement &&
                             <div>
-                                <div className="absolute">{formData.up}</div>
+                                <div className="absolute"><p>{formData.up}</p></div>
                                 <img src={object.data.memes[randomIndex].url} alt="Random cat image" />
                                 <div className="absolute">{formData.down}</div>
                             </div>
